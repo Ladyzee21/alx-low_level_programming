@@ -6,8 +6,6 @@
  */
 int main(void)
 {
-	char a = z;
-
 	_putchar('m');
 	_putchar('a');
 	_putchar('i');
