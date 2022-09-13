@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - entry point for printing alphabetsten times
+ * print_alphabet_x10 - entry point for printing alphabetsten times
  *
  * Return:Always 0 (Success)
  */
