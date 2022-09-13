@@ -2,7 +2,7 @@
 /**
  * _islower - test a lowercase letter from the ENglish alphabetd
  * @c: character to test
- * return: 1 if it is a lowercase, and return 0 if it is not a lowercase
+ * Return: 1 if it is a lowercase letter, 0 if it is not a lowercase letter.
  */
 int _islower(int c)
 {
