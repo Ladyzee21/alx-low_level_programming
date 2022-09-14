@@ -1,5 +1,5 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
+#ifndef _MAIN_H
+#define _MAIN_H
 
 void print_alphabet(void);
 
