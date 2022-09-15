@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -8,15 +8,7 @@ nclude "main.h"
  */
 int main(void)
 {
-	a = 98;
-	b = 1024
-	{
-	printf("%d\n", a * b);
-	}
-	a = '-402';
-	b = 4096;
-	{
-	printf("%d\n", a * b);
-	}
-	return (0);
+printf("%d\n", mul(98, 1024));
+printf("%d\n", mul(-402, 4096));
+return (0);
 }
