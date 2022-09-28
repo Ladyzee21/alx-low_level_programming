@@ -1,18 +1,20 @@
 #include "main.h"
+#include <string.h>
 
 /**
- * _puts_recursion - prints a string with recursion
- * @s: string to print
+ * _puts_recursion - check the code for Holberton School students.
+ *@s : parameter
  */
+
 void _puts_recursion(char *s)
 {
-	if (*s == '\0')
-		{
-
-		return;
+	if (*s != '\0')
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
-	_putchar(*s);
-	s++;
-	_puts_recursion(s);
-	_putchar('\n');
+	else
+	{
+		_putchar('\n');
+	}
 }
