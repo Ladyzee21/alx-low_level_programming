@@ -19,6 +19,7 @@ int main(int argc, char const *argv[])
 	if (atoi(argv[1]) >= 0)
 	{
 		int c = 0;
+
 		checker(atoi(argv[1]), c);
 	}
 	else if (atoi(argv[1]) < 0)
