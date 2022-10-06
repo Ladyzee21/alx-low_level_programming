@@ -3,7 +3,7 @@
  * malloc_checked - the prototype function for the program
  * @b: variable
  * Return: 0 if successful
- * */
+ */
 void *malloc_checked(unsigned int b);
 {
 	int *ptr;
