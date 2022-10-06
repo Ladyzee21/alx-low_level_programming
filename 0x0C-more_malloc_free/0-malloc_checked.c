@@ -4,7 +4,7 @@
  * @b: variable
  * Return: 0 if successful
  */
-void *malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b)
 {
 	int *ptr;
 
