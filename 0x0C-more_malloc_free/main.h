@@ -9,5 +9,9 @@ int *array_range(int min, int max);
 
 char *_memset(char *new_ptr, char c, unsigned int size);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+void populateResult(char *dest, char *n1, int n1_len, char *n2, int n2_len);
+void print_result(char *src, int length);
+int getLengthOfNum(char *str);
+
 
 #endif /* MAIN_H*/
