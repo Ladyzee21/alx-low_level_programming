@@ -1,1 +1,1 @@
-Variadic functions
+Variadic functions in C programming language
